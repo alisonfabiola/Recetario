@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('—Pngtree—hand painted food background material_5465889.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+
+.header .title {
+    text-align: left;
+    padding: 10px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header h1 {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.time-box {
+    text-align: left;
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 8px;
+    width: 110px;
+}
+
+.time-box p {
+    margin: 0;
+    font-size: 12px;
+}
+
+.time-box strong {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.ingredients, .instructions, .nutrition {
+    margin-top: 30px;
+}
+
+.ingredients ul {
+    padding-left: 5px;
+    list-style-type: none;
+}
+
+.ingredients li {
+    margin-bottom: 30px;
+}
+
+.instructions div, .nutrition p {
+    margin-bottom: 30px;
+}
+
+.ingredients .note {
+    color: #888;
+    font-size: 12px;
+}
+
+
+/* Media queries para resposividad  */
+@media (max-width: 768px) {
+    .time {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .time-box {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    .header h1 {
+        font-size: 24px;
+    }
+
+    .header .title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+    }
+
+    .time-box {
+        padding: 10px;
+    }
+
+    .header h1 {
+        font-size: 20px;
+    }
+
+    .header .title {
+        font-size: 18px;
+    }
+}
